@@ -14,7 +14,8 @@ export const CONTACT = {
   phone: "+91 9177988688",
   whatsapp: "919177988688",
   email: "smsabroadrecruitment@gmail.com",
-  address: "Training provided for the required time, followed by interviews and overseas placement support.",
+  address:
+    "Training provided for the required time, followed by interviews and overseas placement support.",
 };
 
 export const WHATSAPP_URL = `https://wa.me/${CONTACT.whatsapp}?text=Hi%20SMS%2C%20I%27d%20like%20to%20inquire%20about%20training%20and%20overseas%20placement.`;
@@ -108,7 +109,10 @@ export const PROCESS = [
     title: "Counseling",
     body: "One-on-one guidance to pick the right trade for your background and goals.",
   },
-  { title: "Training", body: "Hands-on workshop hours on real machinery for the required duration." },
+  {
+    title: "Training",
+    body: "Hands-on workshop hours on real machinery for the required duration.",
+  },
   {
     title: "Documentation",
     body: "Passport, certificates and skill test paperwork handled end to end.",

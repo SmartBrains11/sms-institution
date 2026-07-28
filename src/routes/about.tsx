@@ -95,8 +95,8 @@ function About() {
                 idea — that skilled trades change lives when they're taught properly.
               </p>
               <p>
-                Twenty years later, we've helped over a thousand candidates train and thousands walk onto
-                overseas job sites confident in what they can do.
+                Twenty years later, we've helped over a thousand candidates train and thousands walk
+                onto overseas job sites confident in what they can do.
               </p>
               <p>
                 Every program we run is shaped by what employers abroad ask us for — because getting

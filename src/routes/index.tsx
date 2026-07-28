@@ -250,7 +250,8 @@ function PartnersSection() {
               Where Our Trainees Work
             </h2>
             <p className="mt-3 text-muted-foreground max-w-xl mx-auto text-sm md:text-base">
-              SMS Institute connects qualified welders, fitters, and technicians with reputable employers across Singapore, Malaysia, and the Middle East.
+              SMS Institute connects qualified welders, fitters, and technicians with reputable
+              employers across Singapore, Malaysia, and the Middle East.
             </p>
           </div>
         </Reveal>
@@ -346,7 +347,9 @@ function PartnersSection() {
                 key={c.name}
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-black/5 shadow-sm text-sm font-bold text-navy-deep hover:-translate-y-0.5 transition-all"
               >
-                <span className="text-lg" role="img" aria-label={c.name}>{c.flag}</span>
+                <span className="text-lg" role="img" aria-label={c.name}>
+                  {c.flag}
+                </span>
                 {c.name}
               </span>
             ))}
@@ -469,7 +472,7 @@ function ProgramsPreview() {
                   className="group relative block h-full overflow-hidden rounded-3xl bg-navy-deep text-white p-7 min-h-[280px] hover:-translate-y-1 transition-all duration-500 shadow-xl"
                 >
                   <div
-                     className="absolute inset-0 opacity-30 group-hover:opacity-50 transition-opacity"
+                    className="absolute inset-0 opacity-30 group-hover:opacity-50 transition-opacity"
                     style={{
                       backgroundImage: `url(${IMG.welding})`,
                       backgroundSize: "cover",
@@ -632,9 +635,7 @@ function CountriesSection() {
                 <h3 className="mt-6 font-display font-black text-2xl">{c.name}</h3>
                 <p className="mt-2 text-sm text-white/70 leading-relaxed">{c.blurb}</p>
                 <div className="mt-5 pt-5 border-t border-white/10">
-                  <div className="text-xs uppercase tracking-widest text-white/50">
-                    Roles
-                  </div>
+                  <div className="text-xs uppercase tracking-widest text-white/50">Roles</div>
                   <div className="mt-2 flex flex-wrap gap-1.5">
                     {c.roles.map((r) => (
                       <span key={r} className="text-xs rounded-full bg-white/10 px-3 py-1">

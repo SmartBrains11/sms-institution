@@ -172,7 +172,6 @@ function Placements() {
           </div>
         </div>
       </section>
-
     </PageShell>
   );
 }
