@@ -35,7 +35,7 @@ export const PROGRAMS = [
       "Blueprint reading",
       "Safety & PPE standards",
     ],
-    countries: ["Singapore", "Malaysia", "Saudi Arabia"],
+    countries: ["Saudi Arabia", "Oman", "Dubai (UAE)", "Russia", "Kuwait", "Bahrain"],
   },
   {
     slug: "fitter",
@@ -48,7 +48,7 @@ export const PROGRAMS = [
       "Rigging fundamentals",
       "On-site safety practice",
     ],
-    countries: ["Singapore", "Saudi Arabia"],
+    countries: ["Saudi Arabia", "Oman", "Dubai (UAE)", "Russia", "Kuwait", "Bahrain"],
   },
   {
     slug: "diesel-mechanic",
@@ -61,7 +61,7 @@ export const PROGRAMS = [
       "Preventive maintenance",
       "Fault diagnostics",
     ],
-    countries: ["Malaysia", "Saudi Arabia"],
+    countries: ["Saudi Arabia", "Oman", "Dubai (UAE)", "Kuwait"],
   },
   {
     slug: "other-trades",
@@ -80,22 +80,40 @@ export const PROGRAMS = [
 
 export const COUNTRIES = [
   {
-    name: "Singapore",
-    flag: "🇸🇬",
-    roles: ["Welder", "Fitter", "Rigger"],
-    blurb: "Structured contracts with major shipyards and construction firms.",
-  },
-  {
-    name: "Malaysia",
-    flag: "🇲🇾",
-    roles: ["Welder", "Diesel Mechanic", "Helper"],
-    blurb: "Rapid placement into oil & gas and heavy industry.",
-  },
-  {
     name: "Saudi Arabia",
     flag: "🇸🇦",
     roles: ["Welder", "Fitter", "Diesel Mechanic"],
     blurb: "Long-term contracts with leading construction and industrial groups.",
+  },
+  {
+    name: "Oman",
+    flag: "🇴🇲",
+    roles: ["Welder", "Fitter", "Pipe Fitter"],
+    blurb: "Opportunities in infrastructure development and oil & gas facilities.",
+  },
+  {
+    name: "Dubai (UAE)",
+    flag: "🇦🇪",
+    roles: ["Welder", "Fabricator", "Helper"],
+    blurb: "High-demand positions in commercial construction and structural engineering.",
+  },
+  {
+    name: "Russia",
+    flag: "🇷🇺",
+    roles: ["Welder", "Fitter", "Structural Worker"],
+    blurb: "Large-scale industrial construction and energy sector projects.",
+  },
+  {
+    name: "Kuwait",
+    flag: "🇰🇼",
+    roles: ["Welder", "Pipe Fitter", "Rigging Helper"],
+    blurb: "Vast recruitment drives for refineries, ports, and petrochemical plants.",
+  },
+  {
+    name: "Bahrain",
+    flag: "🇧🇭",
+    roles: ["Welder", "Fitter", "Maintenance Tech"],
+    blurb: "Steady work contracts in marine repairs, shipyards, and manufacturing.",
   },
 ];
 

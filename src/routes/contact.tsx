@@ -89,7 +89,18 @@ function ContactForm() {
     if (form.email && !/^\S+@\S+\.\S+$/.test(form.email)) errs.email = "Enter a valid email.";
     if (form.message.length > 1000) errs.message = "Message too long.";
     setErrors(errs);
-    if (Object.keys(errs).length === 0) setSent(true);
+    if (Object.keys(errs).length === 0) {
+      setSent(true);
+      const text = `Hi SMS, I'd like to submit an inquiry:\n\n` +
+        `*Name:* ${form.name}\n` +
+        `*Phone:* ${form.phone}\n` +
+        (form.email ? `*Email:* ${form.email}\n` : "") +
+        `*Trade:* ${form.trade || "Not specified"}\n` +
+        (form.message ? `*Message:* ${form.message}` : "");
+      
+      const url = `https://wa.me/${CONTACT.whatsapp}?text=${encodeURIComponent(text)}`;
+      window.open(url, "_blank");
+    }
   };
 
   if (sent) {
