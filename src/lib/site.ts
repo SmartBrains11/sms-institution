@@ -1,13 +1,8 @@
-import weldingBooths from "@/assets/welding-booths.jpg.asset.json";
-import office from "@/assets/office.jpg.asset.json";
-import reception from "@/assets/reception.jpg.asset.json";
-import logo from "@/assets/sms-logo.png.asset.json";
-
 export const IMG = {
-  welding: weldingBooths.url,
-  office: office.url,
-  reception: reception.url,
-  logo: logo.url,
+  welding: "/images/welding-booths.jpg",
+  office: "/images/office.jpg",
+  reception: "/images/reception.jpg",
+  logo: "/images/sms-logo.png",
 };
 
 export const CONTACT = {
