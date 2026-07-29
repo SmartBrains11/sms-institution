@@ -18,13 +18,13 @@ import { IMG, PROGRAMS } from "@/lib/site";
 export const Route = createFileRoute("/programs")({
   head: () => ({
     meta: [
-      { title: "Programs — Welder, Fitter & Diesel Mechanic Training | SMS" },
+      { title: "Programs — Welder, Fitter & Diesel Mechanic Training | SMS Skill Development & Testing Center" },
       {
         name: "description",
         content:
           "Vocational programs in welding, fitting, diesel mechanics and other trades — designed for international placement.",
       },
-      { property: "og:title", content: "Programs at SMS Institute of Technology" },
+      { property: "og:title", content: "Programs at SMS Skill Development & Testing Center" },
       {
         property: "og:description",
         content: "Trade programs built for overseas hiring standards.",
@@ -35,10 +35,18 @@ export const Route = createFileRoute("/programs")({
 });
 
 const ICONS: Record<string, any> = {
-  welder: Flame,
-  fitter: Wrench,
-  "diesel-mechanic": Cog,
-  "other-trades": Boxes,
+  "6g-tig-arc-welder": Flame,
+  "mig-welder": Flame,
+  "arc-welder": Flame,
+  "ss-full-tig": Flame,
+  "cs-full-tig": Flame,
+  "pipe-fitter": Wrench,
+  "fabricator": Wrench,
+  "structure-fitter": Wrench,
+  "electrician": Cog,
+  "rigger": Wrench,
+  "scaffolding": Boxes,
+  "steel-fixer": Wrench,
 };
 
 function Programs() {
@@ -69,7 +77,7 @@ function Programs() {
                     className={`lg:col-span-5 relative min-h-[280px] ${reverse ? "lg:order-2" : ""}`}
                   >
                     <img
-                      src={IMG.welding}
+                      src={p.image || IMG.welding}
                       alt={p.title}
                       className="absolute inset-0 h-full w-full object-cover"
                     />

@@ -9,13 +9,13 @@ import { IMG, CONTACT, WHATSAPP_URL } from "@/lib/site";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact SMS Institute — Check Your Eligibility" },
+      { title: "Contact SMS Skill Development & Testing Center — Check Your Eligibility" },
       {
         name: "description",
         content:
           "Talk to a counselor, WhatsApp us, or visit the campus. We reply within one working day.",
       },
-      { property: "og:title", content: "Contact SMS Institute of Technology" },
+      { property: "og:title", content: "Contact SMS Skill Development & Testing Center" },
       {
         property: "og:description",
         content: "Reach the team for counseling, admissions and placement queries.",
@@ -55,7 +55,7 @@ function Contact() {
           <Reveal>
             <div className="rounded-3xl overflow-hidden border border-black/5 shadow-xl">
               <iframe
-                title="SMS Institute location"
+                title="SMS Skill Development & Testing Center location"
                 src="https://www.google.com/maps?q=India&output=embed"
                 width="100%"
                 height="380"
@@ -91,7 +91,7 @@ function ContactForm() {
     setErrors(errs);
     if (Object.keys(errs).length === 0) {
       setSent(true);
-      const text = `Hi SMS, I'd like to submit an inquiry:\n\n` +
+      const text = `Hi SMS Skill Development & Testing Center, I'd like to submit an inquiry:\n\n` +
         `*Name:* ${form.name}\n` +
         `*Phone:* ${form.phone}\n` +
         (form.email ? `*Email:* ${form.email}\n` : "") +
@@ -233,6 +233,12 @@ function ContactInfo() {
           label="Call"
           value={CONTACT.phone}
           href={`tel:${CONTACT.phone.replace(/\s/g, "")}`}
+        />
+        <Item
+          icon={Phone}
+          label="Call (Alt)"
+          value={CONTACT.phone2}
+          href={`tel:${CONTACT.phone2.replace(/\s/g, "")}`}
         />
         <Item icon={MessageCircle} label="WhatsApp" value="Chat now" href={WHATSAPP_URL} accent />
         <Item icon={Mail} label="Email" value={CONTACT.email} href={`mailto:${CONTACT.email}`} />

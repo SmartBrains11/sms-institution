@@ -48,7 +48,7 @@ function Hero() {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <img
         src={IMG.welding}
-        alt="SMS welding workshop"
+        alt="SMS Skill Development & Testing Center welding workshop"
         className="absolute inset-0 h-full w-full object-cover scale-105"
       />
       <div className="absolute inset-0 bg-gradient-to-br from-navy-deep/95 via-navy-deep/75 to-navy-deep/40" />
@@ -85,7 +85,7 @@ function Hero() {
             transition={{ duration: 0.9, delay: 0.35 }}
             className="mt-8 max-w-xl text-lg md:text-xl text-white/80 leading-relaxed"
           >
-            SMS Institute of Technology trains skilled workers in welding, fitting and diesel
+            SMS Skill Development & Testing Center trains skilled workers in welding, fitting and diesel
             mechanics — and helps place them in overseas jobs.
           </motion.p>
 
@@ -250,7 +250,7 @@ function PartnersSection() {
               Where Our Trainees Work
             </h2>
             <p className="mt-3 text-muted-foreground max-w-xl mx-auto text-sm md:text-base">
-              SMS Institute connects qualified welders, fitters, and technicians with reputable
+              SMS Skill Development & Testing Center connects qualified welders, fitters, and technicians with reputable
               employers across Singapore, Malaysia, and the Middle East.
             </p>
           </div>
@@ -400,7 +400,7 @@ function WhyChoose() {
         <div className="max-w-2xl">
           <Reveal>
             <span className="text-xs font-bold uppercase tracking-widest text-accent-green">
-              Why Choose SMS
+              Why Choose SMS Skill Development & Testing Center
             </span>
             <h2 className="mt-3 text-4xl md:text-5xl font-black text-navy-deep leading-[1.05]">
               Built for real jobs, not just certificates.
@@ -510,7 +510,7 @@ function TrainingEnvironment() {
         <div className="max-w-2xl">
           <Reveal>
             <span className="text-xs font-bold uppercase tracking-widest text-accent-green">
-              Inside SMS
+              Inside SMS Skill Development & Testing Center
             </span>
             <h2 className="mt-3 text-4xl md:text-5xl font-black text-navy-deep leading-[1.05]">
               A real workshop. Real training.
@@ -527,7 +527,7 @@ function TrainingEnvironment() {
             <figure className="group relative overflow-hidden rounded-3xl">
               <img
                 src={IMG.welding}
-                alt="Welding workshop booths at SMS"
+                alt="Welding workshop booths at SMS Skill Development & Testing Center"
                 className="w-full h-[280px] md:h-[420px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <figcaption className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-navy-deep/90 to-transparent p-6 text-white">

@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "SMS Institute of Technology — Train Here. Work Abroad." },
+      { title: "SMS Skill Development & Testing Center — Train Here. Work Abroad." },
       {
         name: "description",
         content:
           "Vocational training in welding, fitting and diesel mechanics with international placement support across Singapore, Malaysia and Saudi Arabia.",
       },
-      { name: "author", content: "SMS Institute of Technology" },
-      { property: "og:title", content: "SMS Institute of Technology — Train Here. Work Abroad." },
+      { name: "author", content: "SMS Skill Development & Testing Center" },
+      { property: "og:title", content: "SMS Skill Development & Testing Center — Train Here. Work Abroad." },
       {
         property: "og:description",
         content:

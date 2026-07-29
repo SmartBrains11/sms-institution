@@ -8,16 +8,16 @@ import { IMG, COUNTRIES, TESTIMONIALS, WHATSAPP_URL } from "@/lib/site";
 export const Route = createFileRoute("/placements")({
   head: () => ({
     meta: [
-      { title: "Placements — Singapore, Malaysia, Saudi Arabia | SMS" },
+      { title: "Placements — Singapore, Malaysia, Saudi Arabia | SMS Skill Development & Testing Center" },
       {
         name: "description",
         content:
           "500+ overseas placements. Transparent process, real contracts and end-to-end documentation support.",
       },
-      { property: "og:title", content: "International Placements at SMS Institute" },
+      { property: "og:title", content: "International Placements at SMS Skill Development & Testing Center" },
       {
         property: "og:description",
-        content: "Where SMS trainees work and how the placement process runs.",
+        content: "Where SMS Skill Development & Testing Center trainees work and how the placement process runs.",
       },
     ],
   }),

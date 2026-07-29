@@ -16,11 +16,11 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <span className="grid h-14 w-14 place-items-center rounded-2xl bg-white p-1">
-              <img src={IMG.logo} alt="SMS Institute" className="h-full w-auto" />
+              <img src={IMG.logo} alt="SMS Skill Development & Testing Center" className="h-full w-full object-contain" />
             </span>
             <div>
-              <div className="font-display font-extrabold text-lg leading-tight">SMS Institute</div>
-              <div className="text-xs text-white/60 tracking-widest uppercase">Of Technology</div>
+              <div className="font-display font-extrabold text-base leading-tight">SMS Skill Development</div>
+              <div className="text-[10px] text-white/60 tracking-widest uppercase font-bold">& Testing Center</div>
             </div>
           </div>
           <p className="mt-6 text-sm text-white/70 leading-relaxed max-w-xs">
@@ -46,7 +46,11 @@ export function Footer() {
           <h4 className="font-display font-bold text-white mb-4">Contact</h4>
           <ul className="space-y-3 text-sm text-white/70">
             <li className="flex items-start gap-3">
-              <Phone className="h-4 w-4 mt-0.5 text-accent-green shrink-0" /> {CONTACT.phone}
+              <Phone className="h-4 w-4 mt-0.5 text-accent-green shrink-0" />
+              <div>
+                <div>{CONTACT.phone}</div>
+                <div>{CONTACT.phone2}</div>
+              </div>
             </li>
             <li className="flex items-start gap-3">
               <Mail className="h-4 w-4 mt-0.5 text-accent-green shrink-0" /> {CONTACT.email}
@@ -83,7 +87,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container-x py-5 flex flex-wrap items-center justify-between gap-3 text-xs text-white/50">
           <span>
-            © {new Date().getFullYear()} SMS Institute of Technology. All rights reserved.
+            © {new Date().getFullYear()} SMS Skill Development & Testing Center. All rights reserved.
           </span>
           <span>Train here. Work abroad.</span>
         </div>

@@ -8,16 +8,16 @@ import { IMG } from "@/lib/site";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About SMS Institute — 20 Years of Skilled Trades Training" },
+      { title: "About SMS Skill Development & Testing Center — 20 Years of Skilled Trades Training" },
       {
         name: "description",
         content:
           "Two decades of turning trainees into tradespeople placed across Singapore, Malaysia and Saudi Arabia.",
       },
-      { property: "og:title", content: "About SMS Institute of Technology" },
+      { property: "og:title", content: "About SMS Skill Development & Testing Center" },
       {
         property: "og:description",
-        content: "Our story, mission and the milestones that shaped SMS Institute.",
+        content: "Our story, mission and the milestones that shaped SMS Skill Development & Testing Center.",
       },
     ],
   }),
@@ -91,7 +91,7 @@ function About() {
             </h2>
             <div className="mt-6 space-y-4 text-muted-foreground text-lg leading-relaxed">
               <p>
-                SMS Institute of Technology started with one workshop, one trainer, and a simple
+                SMS Skill Development & Testing Center started with one workshop, one trainer, and a simple
                 idea — that skilled trades change lives when they're taught properly.
               </p>
               <p>

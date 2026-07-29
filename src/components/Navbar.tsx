@@ -30,15 +30,15 @@ export function Navbar() {
     >
       <div className="container-x flex h-20 items-center justify-between py-3">
         <Link to="/" className="flex items-center gap-3 shrink-0">
-          <img src={IMG.logo} alt="SMS Institute" className="h-11 w-auto" />
+          <img src={IMG.logo} alt="SMS Skill Development & Testing Center" className="h-11 w-auto object-contain" />
           <span
             className={`hidden sm:block font-display font-extrabold text-sm leading-tight ${transparent ? "text-white" : "text-navy-deep"}`}
           >
-            SMS Institute
+            SMS Skill Development
             <span
               className={`block text-[10px] font-medium tracking-widest uppercase ${transparent ? "text-white/70" : "text-muted-foreground"}`}
             >
-              Skill Development & Testing
+              & Testing Center
             </span>
           </span>
         </Link>
