@@ -81,7 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Vocational training in welding, fitting and diesel mechanics with international placement support across Singapore, Malaysia and Saudi Arabia.",
+          "Vocational training in welding, fitting, electrical and instrumentation with international placement support across Singapore, Malaysia and Saudi Arabia.",
       },
       { name: "author", content: "SMS Skill Development & Testing Center" },
       { property: "og:title", content: "SMS Skill Development & Testing Center — Train Here. Work Abroad." },

@@ -18,11 +18,11 @@ import { IMG, PROGRAMS } from "@/lib/site";
 export const Route = createFileRoute("/programs")({
   head: () => ({
     meta: [
-      { title: "Programs — Welder, Fitter & Diesel Mechanic Training | SMS Skill Development & Testing Center" },
+      { title: "Programs — Welder, Fitter & Electrician Training | SMS Skill Development & Testing Center" },
       {
         name: "description",
         content:
-          "Vocational programs in welding, fitting, diesel mechanics and other trades — designed for international placement.",
+          "Vocational programs in welding, fitting, electrical and instrumentation and other trades — designed for international placement.",
       },
       { property: "og:title", content: "Programs at SMS Skill Development & Testing Center" },
       {

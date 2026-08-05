@@ -6,9 +6,10 @@ export const IMG = {
   welding2: "/images/welding2.png",
   pipe_fitting: "/images/pipe_fitting.png",
   fabrication: "/images/fabrication.png",
-  electrician: "/images/electrician.png",
-  rigging: "/images/rigging.png",
-  scaffolding: "/images/scaffolding.png",
+  electrician: "/images/electrician-training.png",
+  rigging: "/images/rigger-training.png",
+  scaffolding: "/images/scaffolding-training.png",
+  steel_fixer: "/images/steel-fixer-training.png",
 };
 
 export const CONTACT = {
@@ -136,7 +137,7 @@ export const PROGRAMS = [
     duration: "Flexible (training based on required duration per candidate)",
     outcomes: ["Rebar reading", "Cutting & bending rebar", "Tying techniques", "Concrete forms"],
     countries: ["Oman", "Dubai (UAE)", "Russia"],
-    image: IMG.fabrication,
+    image: IMG.steel_fixer,
   }
 ];
 
@@ -144,7 +145,7 @@ export const COUNTRIES = [
   {
     name: "Saudi Arabia",
     flag: "🇸🇦",
-    roles: ["Welder", "Fitter", "Diesel Mechanic"],
+    roles: ["Welder", "Fitter", "Electrician"],
     blurb: "Long-term contracts with leading construction and industrial groups.",
   },
   {
@@ -220,7 +221,7 @@ export const TESTIMONIALS = [
   },
   {
     name: "Mahesh P.",
-    trade: "Diesel Mechanic",
+    trade: "Electrician",
     country: "Malaysia",
     quote:
       "Trainers here have real site experience. That's what got me through the technical round.",
@@ -230,5 +231,5 @@ export const TESTIMONIALS = [
 export const STATS = [
   { value: 20, suffix: "+", label: "Years Experience" },
   { value: 5000, suffix: "+", label: "International Placements" },
-  { value: 3, suffix: "+", label: "Countries Served" },
+  { value: 15, suffix: "+", label: "Countries Served" },
 ];

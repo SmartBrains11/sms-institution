@@ -85,8 +85,7 @@ function Hero() {
             transition={{ duration: 0.9, delay: 0.35 }}
             className="mt-8 max-w-xl text-lg md:text-xl text-white/80 leading-relaxed"
           >
-            SMS Skill Development & Testing Center trains skilled workers in welding, fitting and diesel
-            mechanics — and helps place them in overseas jobs.
+            We train skilled workers in welding, fitting, electrical and instrumentation — and help place them in overseas jobs.
           </motion.p>
 
           <motion.div
@@ -431,10 +430,18 @@ function WhyChoose() {
 }
 
 const PROG_ICONS: Record<string, any> = {
-  welder: Flame,
-  fitter: Wrench,
-  "diesel-mechanic": Cog,
-  "other-trades": Boxes,
+  "6g-tig-arc-welder": Flame,
+  "mig-welder": Flame,
+  "arc-welder": Flame,
+  "ss-full-tig": Flame,
+  "cs-full-tig": Flame,
+  "pipe-fitter": Wrench,
+  "fabricator": Wrench,
+  "structure-fitter": Wrench,
+  "electrician": Cog,
+  "rigger": Wrench,
+  "scaffolding": Boxes,
+  "steel-fixer": Wrench,
 };
 
 function ProgramsPreview() {
@@ -584,7 +591,7 @@ function TrainingEnvironment() {
                 </h3>
                 <p className="mt-4 text-white/80 max-w-md">
                   Every trainee gets floor time on the exact equipment they'll use overseas — from
-                  arc welders to diesel test benches.
+                  arc welders to electrical panels.
                 </p>
               </div>
               <Link

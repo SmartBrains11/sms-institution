@@ -159,7 +159,7 @@ function ContactForm() {
             <option value="">Select a trade</option>
             <option>Welder</option>
             <option>Fitter</option>
-            <option>Diesel Mechanic</option>
+            <option>Electrician</option>
             <option>Other Trades</option>
           </select>
         </Field>

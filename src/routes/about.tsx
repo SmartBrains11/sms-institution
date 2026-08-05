@@ -38,7 +38,7 @@ const MILESTONES = [
   {
     year: "2016",
     title: "Expanded trades",
-    body: "Added fitting and diesel mechanic programs with new lab spaces.",
+    body: "Added fitting and electrical programs with new lab spaces.",
   },
   {
     year: "2020",
